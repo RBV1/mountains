@@ -1,0 +1,110 @@
+
+.travel-with-us {
+	background-image: url("../img/worldmap-dots.png"), url("../img/travel-with-us-background.jpg");
+	background-position: center 0, center bottom;
+	background-repeat: no-repeat, no-repeat;
+	padding-bottom: 475px;
+}
+
+.travel-with-us > h1 {
+	font-size: 1em;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	margin-top: 60px;
+	margin-bottom: 70px;
+	padding-top: 40px;
+	text-align: center;
+	background-image: url("../img/wavy-line.svg");
+	background-position: top center;
+	background-repeat: no-repeat;
+}
+
+.wrapper-travel-with-us {
+	margin: 0 auto;
+	box-sizing: border-box;
+	min-width: 1140px;
+	width: 59.375%;
+	overflow: hidden;
+}
+
+.rate {
+	height: 40px;
+	width: 100%;
+	padding-left: 15px;
+	margin-bottom: 110px;
+}
+
+.rate > li {
+	float: left;
+	width: 20px;
+	height: 20px;
+	background: url("../img/rate.png") center no-repeat;
+}
+
+.lot {
+	width: 200px;
+	padding-top: 15px;
+	padding-right: 15px;
+	margin-left: 10px;
+	float: left;
+}
+
+.lot > h1 {
+	margin-bottom: 20px;
+	font-size: 1.5em;
+	color: rgb(255, 255, 255);
+	padding-left: 15px;
+}
+
+.lot > h2 {
+	margin-bottom: 100px;
+	color: rgb(255, 255, 255);
+	font-size: .7em;
+	line-height: 1.5em;
+	padding-left: 15px;
+}
+
+.lot-1 {
+	background: url("../img/lot-1-background.jpg") no-repeat;
+	background-size: 100% auto;
+}
+.lot-2 {
+	background: url("../img/lot-2-background.jpg") no-repeat;
+	background-size: 100% auto;
+}
+
+.lot-3 {
+	background: url("../img/lot-3-background.jpg") no-repeat;
+	background-size: 100% auto;
+}
+
+.lot-4 {
+	background: url("../img/lot-4-background.jpg") no-repeat;
+	background-size: 100% auto;
+}
+
+.lot-5 {
+	background: url("../img/lot-5-background.jpg") no-repeat;
+	background-size: 100% auto;
+}
+
+.price {
+	line-height: 70px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.price__before {
+	color: #a5a7aa;
+	font-size: .85em;
+	font-weight: 100;
+	text-decoration: line-through;
+}
+
+.price__after {
+	float: right;
+	font-size: 1.25em;
+	font-weight: bold;
+	color: rgb(255, 255, 255);
+}

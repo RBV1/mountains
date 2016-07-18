@@ -1,0 +1,112 @@
+.our-journal > h1 {
+	margin-bottom: 70px;
+	margin-top: 65px;
+	padding-top: 35px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1px;
+    background-image: url("../img/wavy-line.svg");
+	background-position: top center;
+	background-repeat: no-repeat;
+}
+.our-journal-wrapper {
+	width: 62%;
+	margin: 0 auto;
+	margin-bottom: 80px;
+	overflow: hidden;
+	box-shadow: grey 0px 0px 15px 0px;
+}
+
+.our-journal-wrapper > div {
+	width: 33.33%;
+	float: left;
+	height: 17em;
+	box-sizing: border-box;
+}
+.container-image {
+	background-size: auto auto, 100% auto;
+	background-position: center;
+	background-repeat: no-repeat, no-repeat;
+}
+
+.image-1 {
+	background-image: url("../img/sulfur-in-circle.png"), url("../img/journal-post-1.jpg");
+}
+
+.image-2 {
+	background-image: url("../img/drop.png"), url("../img/journal-post-2.jpg");
+}
+
+.image-3 {
+	background-image: url("../img/leaf.png"), url("../img/journal-post-3.jpg");
+}
+
+.container-text {
+	position: relative;
+	padding-top: 40px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.designaion-text {
+	color: rgb(0, 131, 179);
+	font-size: .5em;
+  	font-weight: bold;
+  	letter-spacing: 1px;
+  	text-transform: uppercase;
+  	text-align: center;
+}
+
+.container-text > h1 {
+	margin-top: 40px;
+	margin-bottom: 20px;
+	text-align: center;
+	line-height: 1.2em;
+	font-size: .7em;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+.container-text > h2 {
+	color: rgb(148, 148, 148);
+	font-size: .7em;
+	text-align: center;
+	line-height: 1.5em;
+}
+
+.number-page {
+	font-family: "Times New Roman", sans-serif;
+	font-size: .7em;
+	font-style: italic;
+	text-align: center;
+  	color: rgb(33, 33, 33);
+  	position: absolute;
+  	bottom: 20px;
+  	left: 0;
+  	right: 0;
+}
+
+.designaion-text:after {
+	content: '';
+	display: block;
+	position: absolute;
+	width: 12px;
+	height: 12px;
+	background-color: #fff;
+	transform: rotate(45deg);
+}
+
+.image-1 + .container-text .designaion-text:after {
+	left: -6px;
+}
+
+.image-2 + .container-text > .designaion-text:after {
+	right: -6px;
+}
+
+.image-3 + .container-text .designaion-text:after {
+	top: -6px;
+	left: 50px;
+}

@@ -1,0 +1,200 @@
+/*Begin reset styles*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* End reset default styles*/
+@font-face {
+  font-family: "Open Sans";
+  src: url("../font/OpenSans-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Bringin";
+  src: url("../font/Bringin.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  width: 100%;
+  max-width: 1920px;
+  min-width: 480px;
+  margin: 0 auto;
+}
+
+section {
+  width: 100%;
+}
+
+section > h1 {
+  margin-bottom: 70px;
+  margin-top: 65px;
+  padding-top: 35px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+    background-image: url("../img/wavy-line.svg");
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.banner {
+  background: url("../img/banner-background.jpg") no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden;
+}
+header {
+  width: 100%;
+  min-width: 1330px;
+  background-color: rgba(255, 255, 255, .3);
+  background-image: url("../img/mountains-logo.png");
+  background-position: 21.35% center;
+  background-repeat: no-repeat;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-transform: uppercase;
+  font-size: .7em;
+  font-weight: bold;
+  color: rgb(157, 174, 182);
+  overflow: hidden;
+}
+
+.menu {
+  overflow: hidden;
+  margin-left: 30%;
+  line-height: 40px;
+  float: left;
+  box-sizing: border-box;
+}
+.menu__item {
+  margin-right: 12.5px;
+  margin-left: 12.5px;
+  float: left;
+  border-bottom: rgba(0,0,0,0) 3px solid;
+  cursor: pointer;
+}
+.menu__item:hover {
+  border-bottom: #36aeea 3px solid; 
+}
+
+.button-call-us {
+  width: 150px;
+  height: 40px;
+  float: right;
+  margin-right: 20%;
+  text-align: center;
+  border: #36aeea 3px solid;
+  border-radius: 3px;
+  line-height: 40px;
+  color: #36aeea;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+.button-call-us:hover {
+  background-color: #36aeea;
+  color: #fff;
+}
+.about-banner {
+  clear: left;
+}
+
+.about-banner {
+  width: 58.85%;
+  margin: 0 auto;
+  margin-top: 52px;
+  margin-bottom: 73px;
+  border-left: #fff 3px solid;
+  border-right: #fff 3px solid;
+  border-bottom: #fff 3px solid;
+  background: linear-gradient( #fff 3px, rgba(0,0,0,0) 3px) top left no-repeat,
+              linear-gradient( #fff 3px, rgba(0,0,0,0) 3px) top right no-repeat;
+  background-size: 64.8%, 19%;
+  padding-left: 35px;
+  padding-top: 35px;
+}
+
+.button-orders-now {
+  width: 250px;
+  line-height: 60px;
+  margin-top: 28px;
+  margin-bottom: 38px;
+  background: #36aeea;
+  border-radius: 3px;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: .9em;
+  cursor: pointer;
+}
+
+.about-banner__figure-font {
+  font-family: "Bringin";
+  font-size: 2.3em;
+  color: #56c7ff;
+  letter-spacing: 2px;
+  margin-top: -8px;
+}
+
+.about-banner__description{
+  color: rgba(255, 255, 255, 0.749);
+  font-size: .9em;
+  line-height: 25px;
+}
+
+.about-banner__main-description {
+  text-transform: uppercase;
+  font-size: 2em;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 4px;
+}

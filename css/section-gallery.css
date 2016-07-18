@@ -1,0 +1,42 @@
+.gallery-wrapper {
+	width: 59.375%;
+	margin: 0 auto;
+}
+
+.gallery-wrapper:after {
+	content: '';
+	display: block;
+	width: 0;
+	height: 0;
+	visibility: hidden;
+	clear: both;
+}
+
+.gallery-wrapper img {
+	margin: 15px;
+	width: 100%;
+	height: auto;
+	display: block;
+	transition: all .3s;
+}
+
+.gallery-wrapper img:hover {
+	transform: scale(1.15);
+}
+
+.column {
+	float: left;
+	margin-right: 15px;
+}
+
+.gallery-wrapper .column-1 {
+	width: 22.80%;
+}
+
+.gallery-wrapper .column-2 {
+	width: 31.57%;
+}
+
+.gallery-wrapper .column-3 {
+	width: 39.91%;
+}
