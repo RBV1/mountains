@@ -32,6 +32,7 @@
 .do-you-wanna-go-wrapper form {
 	margin-top: 30px;
 	width: 100%;
+	position: static;
 }
 
 .do-you-wanna-go-wrapper input {
