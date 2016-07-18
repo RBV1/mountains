@@ -1,0 +1,40 @@
+.partners {
+	background: #f8f9fa;
+	overflow: hidden;
+	box-sizing: border-box;
+	padding-left: 19%;
+	padding-right: 19%;
+}
+
+.logo {
+	height: 175px;
+	width: 16.66%;
+	float: left;
+	min-width: 100px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.logo-1 {
+	background-image: url('../img/logo-slack.png');
+}
+
+.logo-2 {
+	background-image: url('../img/logo-adobe.png');
+}
+
+.logo-3 {
+	background-image: url('../img/logo-google.png');
+}
+
+.logo-4 {
+	background-image: url('../img/logo-facebook.png');
+}
+
+.logo-5 {
+	background-image: url('../img/logo-spotifi.png');
+}
+
+.logo-6 {
+	background-image: url('../img/logo-nike.png');
+}
