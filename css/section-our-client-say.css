@@ -1,0 +1,54 @@
+.our-client-say {
+	padding-right: 19%;
+	padding-left: 19%;
+	box-sizing: border-box;
+	background-image: url("../img/contacts-background.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position: bottom ;
+	position: relative;
+}
+.feedback {
+	max-width: 535px;
+	width: 45%;
+	color: rgb(148, 148, 148);
+	font-size: .9em;
+	line-height: 1.5em;
+	box-sizing: border-box;
+	float: left;
+}
+
+blockquote {
+	padding-top: 30px;
+	background-image: url("../img/quote-ico.png");
+	background-repeat: no-repeat;
+	background-position: top left;
+}
+
+.feedback:last-of-type {
+	margin-left: 10%;
+}
+.feedback-author {
+	margin-top: 30px;
+	line-height: 65px;
+}
+
+.feedback img {
+	width: 65px;
+	height: 65px;
+	border: none;
+	display: inline;
+	border-radius: 50%;
+}
+
+.author-name {
+	font-weight: bold;
+	color: rgb(54, 174, 234);
+	vertical-align: top;
+	margin-left: 10px;
+}
+
+.author-proffesion {
+	vertical-align: top;
+	color: rgb(54, 174, 234);
+}
