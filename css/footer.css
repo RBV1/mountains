@@ -1,0 +1,50 @@
+footer {
+	background-color: #3c545b;
+	line-height: 80px;
+	padding-left: 19%;
+	padding-right: 19%;
+	overflow: hidden;
+	position: relative;
+}
+
+.copyright,
+.number-telephone {
+	display: inline-block;
+	float: left;
+	color: #78a8b8;
+}
+
+.number-telephone {
+	float: right;
+	font-weight: bold;
+}
+
+.social {
+	width: 135px;
+	height: 40px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+.social a {
+	width: 40px;
+	height: 40px;
+	float: left;
+	margin-left: 3px;
+}
+
+.social a[href*="twitter"] {
+	background: url("../img/social-twitter.png");
+}
+
+.social a[href*="facebook"] {
+	background: url("../img/social-facebook.png");
+}
+
+.social a[href*="vk"] {
+	background: url("../img/social-vk.png");
+}
