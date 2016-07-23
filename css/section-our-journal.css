@@ -103,7 +103,7 @@
 	left: -6px;
 }
 
-.image-2 + .container-text > .designaion-text:after {
+.image-2 + .container-text  .designaion-text:after {
 	right: -6px;
 }
 

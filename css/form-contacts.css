@@ -34,6 +34,7 @@ form input {
 	box-sizing: border-box;
 	padding-left: 20px;
 	border: none;
+	outline: none;
 }
 
 form input[type="submit"] {
@@ -45,6 +46,11 @@ form input[type="submit"] {
 	font-weight: bold;
 	letter-spacing: 2px;
 	margin-bottom: 50px;
+	cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+	box-shadow: inset 0 0 5px 0 #fff;
 }
 
 .blur {

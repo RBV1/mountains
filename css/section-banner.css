@@ -121,6 +121,7 @@ header {
   float: left;
   border-bottom: rgba(0,0,0,0) 3px solid;
   cursor: pointer;
+  transition: all .3s;
 }
 .menu__item:hover {
   border-bottom: #36aeea 3px solid; 
