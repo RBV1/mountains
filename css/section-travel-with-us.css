@@ -3,7 +3,9 @@
 	background-image: url("../img/worldmap-dots.png"), url("../img/travel-with-us-background.jpg");
 	background-position: center 0, center bottom;
 	background-repeat: no-repeat, no-repeat;
-	padding-bottom: 475px;
+	background-size: contain;
+	padding-bottom: 25%;
+	overflow: hidden;
 }
 
 .travel-with-us > h1 {
@@ -23,8 +25,8 @@
 .wrapper-travel-with-us {
 	margin: 0 auto;
 	box-sizing: border-box;
-	min-width: 1140px;
 	width: 59.375%;
+	min-width: 1130px;
 	overflow: hidden;
 }
 
@@ -32,7 +34,7 @@
 	height: 40px;
 	width: 100%;
 	padding-left: 15px;
-	margin-bottom: 110px;
+	margin-bottom: 45%;
 }
 
 .rate > li {
@@ -43,11 +45,14 @@
 }
 
 .lot {
-	width: 200px;
+	width: calc(20% - 20px);
+	max-width: 200px;
+	min-width: 120px;
 	padding-top: 15px;
 	padding-right: 15px;
-	margin-left: 10px;
+	margin-left: 20px;
 	float: left;
+	box-sizing: border-box;
 }
 
 .lot > h1 {
@@ -58,7 +63,7 @@
 }
 
 .lot > h2 {
-	margin-bottom: 100px;
+	margin-bottom: 70px;
 	color: rgb(255, 255, 255);
 	font-size: .7em;
 	line-height: 1.5em;
@@ -67,38 +72,43 @@
 
 .lot-1 {
 	background: url("../img/lot-1-background.jpg") no-repeat;
-	background-size: 100% auto;
+	background-size: 100% 100%;
 }
 .lot-2 {
 	background: url("../img/lot-2-background.jpg") no-repeat;
-	background-size: 100% auto;
+	background-size: 100% 100%;
 }
 
 .lot-3 {
 	background: url("../img/lot-3-background.jpg") no-repeat;
-	background-size: 100% auto;
+	background-size: 100% 100%;
 }
 
 .lot-4 {
 	background: url("../img/lot-4-background.jpg") no-repeat;
-	background-size: 100% auto;
+	background-size: 100% 100%;
 }
 
 .lot-5 {
 	background: url("../img/lot-5-background.jpg") no-repeat;
-	background-size: 100% auto;
+	background-size: 100% 100%;
 }
 
 .price {
-	line-height: 70px;
+	line-height: 1.25em;
 	padding-left: 15px;
 	padding-right: 15px;
+	margin-bottom: 15px;
+	overflow: hidden;
+	min-width: 110px;
 }
 
 .price__before {
 	color: #a5a7aa;
 	font-size: .85em;
 	font-weight: 100;
+	margin-right: 10px;
+	float: left;
 	text-decoration: line-through;
 }
 
@@ -107,4 +117,11 @@
 	font-size: 1.25em;
 	font-weight: bold;
 	color: rgb(255, 255, 255);
+}
+
+@media (max-width: 1130px) {
+	.wrapper-travel-with-us {
+		width: 90%;
+		min-width: 90%;
+	}
 }

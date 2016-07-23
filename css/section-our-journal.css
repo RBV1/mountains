@@ -12,6 +12,7 @@
 }
 .our-journal-wrapper {
 	width: 62%;
+	min-width: 820px;
 	margin: 0 auto;
 	margin-bottom: 80px;
 	overflow: hidden;
@@ -109,4 +110,11 @@
 .image-3 + .container-text .designaion-text:after {
 	top: -6px;
 	left: 50px;
+}
+
+@media (max-width: 1130px) {
+	.our-journal-wrapper {
+		width: 90%;
+		min-width: 90%;
+	}
 }

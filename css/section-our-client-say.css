@@ -54,3 +54,10 @@ blockquote {
 	vertical-align: top;
 	color: rgb(54, 174, 234);
 }
+
+@media (max-width: 1130px) {
+	.our-client-say {
+		padding-right: 5%;
+		padding-left: 5%;
+	}
+}

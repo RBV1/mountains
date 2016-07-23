@@ -65,3 +65,9 @@
 	margin: 0;
 	padding: 0;
 }
+
+@media (max-width: 1330px) {
+	.about-us {
+		padding-left: 5%;
+	}
+}

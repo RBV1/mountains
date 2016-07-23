@@ -91,10 +91,10 @@ section > h1 {
   background: url("../img/banner-background.jpg") no-repeat;
   background-size: 100% 100%;
   overflow: hidden;
+  max-height: 495px;
 }
 header {
   width: 100%;
-  min-width: 1330px;
   background-color: rgba(255, 255, 255, .3);
   background-image: url("../img/mountains-logo.png");
   background-position: 21.35% center;
@@ -138,6 +138,7 @@ header {
   color: #36aeea;
   letter-spacing: 2px;
   cursor: pointer;
+  transition: all .3s;
 }
 .button-call-us:hover {
   background-color: #36aeea;
@@ -157,7 +158,7 @@ header {
   border-bottom: #fff 3px solid;
   background: linear-gradient( #fff 3px, rgba(0,0,0,0) 3px) top left no-repeat,
               linear-gradient( #fff 3px, rgba(0,0,0,0) 3px) top right no-repeat;
-  background-size: 64.8%, 19%;
+  background-size: 64.8%, 19.5%;
   padding-left: 35px;
   padding-top: 35px;
 }
@@ -175,6 +176,9 @@ header {
   letter-spacing: 2px;
   font-size: .9em;
   cursor: pointer;
+}
+.button-orders-now:hover {
+  box-shadow: inset 0 0 10px 0px #fff; 
 }
 
 .about-banner__figure-font {
@@ -198,3 +202,17 @@ header {
   font-weight: bold;
   letter-spacing: 4px;
 }
+
+@media (max-width: 1330px) {
+  header {
+    background-position: 5% center;
+  }
+
+  .menu {
+    margin-left: 20%;
+  }
+
+  .button-call-us {
+    margin-right: 30px;
+  }
+} 

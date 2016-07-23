@@ -38,3 +38,10 @@
 .logo-6 {
 	background-image: url('../img/logo-nike.png');
 }
+
+@media (max-width: 1130px) {
+	.partners {
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+}

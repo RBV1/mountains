@@ -31,6 +31,7 @@
 
 .do-you-wanna-go-wrapper form {
 	margin-top: 30px;
+	padding: 0;
 	width: 100%;
 	position: static;
 	font-size: .7em;
@@ -83,4 +84,17 @@
 
 .do-you-wanna-go-wrapper form:valid + .lock-data-text {
 	visibility: hidden;
+}
+
+@media (max-width: 1130px) {
+	.do-you-wanna-go {
+		padding: 0;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	.do-you-wanna-go-wrapper {
+		width: 70%;
+		margin-left: 5%;
+	}
 }

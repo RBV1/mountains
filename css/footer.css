@@ -48,3 +48,10 @@ footer {
 .social a[href*="vk"] {
 	background: url("../img/social-vk.png");
 }
+
+@media (max-width: 1130px) {
+	footer {
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+}

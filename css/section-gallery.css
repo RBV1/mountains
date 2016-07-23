@@ -4,6 +4,7 @@
 
 .gallery-wrapper {
 	width: 59.375%;
+	min-width: 790px;
 	margin: 0 auto;
 }
 
@@ -43,4 +44,14 @@
 
 .gallery-wrapper .column-3 {
 	width: 39.91%;
+}
+
+@media (max-width: 1130px) {
+	.gallery-wrapper {
+		width: 90%;
+	}
+
+	.gallery-wrapper img:hover {
+	transform: none;
+}
 }
